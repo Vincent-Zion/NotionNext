@@ -174,7 +174,7 @@ const CONFIG = {
         q: '你对生活有什么看法？',
         a: '人生就像旷野行走，有时候风沙扑面，但只要眼光不离开那道光，终会找到方向与平安。'
     }
-    ]
+    ],
 
 
     /*
@@ -200,7 +200,6 @@ const CONFIG = {
 
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
-    
     PROXIO_BRANDS: [
         '嵌入式系统设计',
         'PCB绘制',
