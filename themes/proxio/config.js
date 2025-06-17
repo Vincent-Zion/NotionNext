@@ -3,19 +3,18 @@
  */
 const CONFIG = {
     PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-    PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+    PROXIO_WELCOME_TEXT: '欢迎来到我的个人网站，点击任意位置进入', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-    PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+    PROXIO_HERO_TITLE_1: '我是一名有信仰的嵌入式软件工程师', // 英雄区文字
+    PROXIO_HERO_TITLE_2: '【哥林多后书 5:7】因我们行事为人是凭着信心，不是凭着眼见。', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: 'Go For It !!!', // 英雄区按钮
-    PROXIO_HERO_BUTTON_1_URL:
-        'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
+    PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_URL: '', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_URL: '', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
     // 英雄区配图，如需隐藏，改为空值即可 ''
     PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
@@ -24,8 +23,8 @@ const CONFIG = {
 
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-    PROXIO_BLOG_TITLE: '作品',
-    PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
+    PROXIO_BLOG_TITLE: '博文',
+    PROXIO_BLOG_COUNT: 20, // 首页博文区块展示前20篇文章
     PROXIO_BLOG_TEXT_1: '我的最新动态',
 
     // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
@@ -87,7 +86,7 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
     PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
 
-    // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
+    /*// 这里不支持CONFIG和环境变量，需要一一修改此处代码。
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
@@ -143,6 +142,7 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
         }
     ],
+    */
 
     //   FAQ 常见问题模块
     PROXIO_FAQ_ENABLE: true, // 常见问题模块开关
