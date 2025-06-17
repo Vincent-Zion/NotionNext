@@ -36,6 +36,7 @@ const CONFIG = {
 
     PROXIO_ANNOUNCEMENT_ENABLE: true, //公告文字区块
 
+    /*
     // 特性区块
     PROXIO_FEATURE_ENABLE: true, // 特性区块开关
     PROXIO_FEATURE_TITLE: '为什么选我',
@@ -61,6 +62,7 @@ const CONFIG = {
 
     PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
+    */
 
     /*
     // 首页生涯区块
@@ -290,12 +292,11 @@ const CONFIG = {
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我',
 
-    PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-    PROXIO_POST_REDIRECT_URL: 'https://bsk41.com', // 重定向域名
+    //PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
+    //PROXIO_POST_REDIRECT_URL: 'https://bsk41.com', // 重定向域名
     PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
-
 
 
 
