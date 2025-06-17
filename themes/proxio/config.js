@@ -62,6 +62,7 @@ const CONFIG = {
     PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
     PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
+    /*
     // 首页生涯区块
     PROXIO_CAREER_ENABLE: true, // 区块开关
     PROXIO_CAREER_TITLE: '生涯',
@@ -74,6 +75,7 @@ const CONFIG = {
         { title: 'Product Designer at Spotify', bio: '2020-2022', text: 'At Spotify, I helped shape innovative features for millions of users globally. My focus was on creating seamless music discovery experiences, enhancing user interfaces, and optimizing cross-platform navigation, which led to an improved product flow and increased user satisfaction.' },
         { title: 'Freelance Product Designer', bio: '2022-Now', text: 'Now I design user-centric products that align with client visions. As a freelance product designer, I collaborate with startups and established companies, crafting solutions that elevate user experiences and increase engagement across both digital and physical interfaces.' }
     ],
+    */
 
     /*
     // 首页用户测评区块
@@ -155,14 +157,14 @@ const CONFIG = {
     {
         q: '你相信什么？',
         a: '我相信，生命不只是呼吸，而是被爱激活，被话语引导，被永恒吸引。'
-    }  
+    },  
     {
         q: '你是做什么的？',
         a: '我是一个喜欢研究圣经、探寻真理的人，平时也写一点嵌入式代码，但我的重心更在内在生命的成长。'
     },
     {
         q: '你平时都在做些什么？',
-        a: '我每周参加5次线上学习，分享圣经感悟，也在小组中陪伴成长，思考如何将爱活出来。'
+        a: '我每周参加线上学习，分享圣经感悟，也在小组中陪伴成长，思考如何将爱活出来。'
     },
     {
         q: '你为什么创建这个网站？',
