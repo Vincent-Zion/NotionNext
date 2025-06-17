@@ -10,7 +10,7 @@ const CONFIG = {
     PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
     PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: 'Go For It !!!', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
         'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
@@ -157,7 +157,7 @@ const CONFIG = {
     ],
 
     // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于作者',
     PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
     PROXIO_ABOUT_TEXT_2:
@@ -178,18 +178,30 @@ const CONFIG = {
     // 横向滚动文字
     PROXIO_BRANDS_ENABLE: true, // 滚动文字
     PROXIO_BRANDS: [
-        'Web Design',
-        'Logo Design',
-        'Mobile App Design',
-        'Product Design'
+        '嵌入式系统设计',
+        'PCB绘制',
+        'FreeRTOS',
+        '信仰',
+        '圣经',
+        'bible',
+        '仁爱',
+        '喜乐',
+        '和平',
+        '忍耐',
+        '恩慈',
+        '良善',
+        '信实',
+        '温柔',
+        '节制'
     ],
 
-    PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+    PROXIO_FOOTER_SLOGAN: '【哥林多后书 5:7】因我们行事为人是凭着信心，不是凭着眼见。',
 
     // 页脚三列菜单组
     // 页脚菜单
     PROXIO_FOOTER_LINKS: [
         {
+            /*没有友情链接
             name: '友情链接',
             menus: [
                 {
@@ -201,8 +213,10 @@ const CONFIG = {
                     href: 'https://www.tangly1024.com'
                 }
             ]
+            */
         },
         {
+            /*没有开发者
             name: '开发者',
             menus: [
                 { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
@@ -223,6 +237,7 @@ const CONFIG = {
                     href: 'https://blog.tangly1024.com/about'
                 }
             ]
+            */
         }],
 
     PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
@@ -244,16 +259,22 @@ const CONFIG = {
     // 页面底部的行动呼吁模块
     PROXIO_CTA_ENABLE: true,
     PROXIO_CTA_TITLE: '与我建立联系',
-    PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
-    PROXIO_CTA_DESCRIPTION:
-        '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+    PROXIO_CTA_TITLE_2: '开始一段从未设想的道路～～～',
+    //PROXIO_CTA_DESCRIPTION:
+    //    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
     PROXIO_CTA_BUTTON: true, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我',
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-    PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+    PROXIO_POST_REDIRECT_URL: 'https://bsk41.com', // 重定向域名
     PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
+
+
+
+
+
+
