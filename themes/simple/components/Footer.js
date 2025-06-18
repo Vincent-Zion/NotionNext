@@ -35,11 +35,11 @@ export default function Footer(props) {
           )}
           <BeiAnGongAn />
           <span className='no-underline ml-4'>
-            Powered by
+            Powered by 
             <a
               href='https://cairnkzlewgklkiqjuou.supabase.co/storage/v1/object/public/bsk41-media/picture/IMG_0323.JPG'
               className=' hover:underline'>
-              bsk41 {siteConfig('VERSION')}
+              bsk41 {siteConfig('')}
             </a>
           </span>
         </div>
