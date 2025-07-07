@@ -14,14 +14,14 @@ export default function SideBar (props) {
   const { notice } = props
   return (<>
 
-            <Catalog {...props} />
+            //<Catalog {...props} />
 
-            <Live2D />
+            // <Live2D />
 
             <Announcement post={notice} />
 
-            <AdSlot/>
-            <WWAds orientation="vertical" className="w-full" />
+            //<AdSlot/>
+            //<WWAds orientation="vertical" className="w-full" />
 
     </>)
 }
