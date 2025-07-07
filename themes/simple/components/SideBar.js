@@ -1,5 +1,5 @@
 import { AdSlot } from '@/components/GoogleAdsense'
-//import Live2D from '@/components/Live2D'
+import Live2D from '@/components/Live2D'
 import Announcement from './Announcement'
 import Catalog from './Catalog'
 import WWAds from '@/components/WWAds'
