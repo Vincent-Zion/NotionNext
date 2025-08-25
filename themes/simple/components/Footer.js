@@ -23,6 +23,12 @@ export default function Footer(props) {
           &copy;{`${copyrightDate}`} {siteConfig('AUTHOR')}. All rights
           reserved.
         </div>
+
+        
+        <div className='text-center my-2 md:my-0'>
+          Be Strong in the Kingdom
+        </div>
+          
         <div className='md:p-0 text-center md:text-right text-xs'>
           {/* 右侧链接 */}
           {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
