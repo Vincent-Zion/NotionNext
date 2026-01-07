@@ -28,9 +28,9 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '技术', url: '/tag/技术' },
-  HEO_HERO_CATEGORY_2: { title: '信仰', url: '/tag/信仰' },
-  HEO_HERO_CATEGORY_3: { title: '随笔', url: '/tag/随笔' },
+  HEO_HERO_CATEGORY_1: { title: '视频', url: '/tag/视频' },
+  HEO_HERO_CATEGORY_2: { title: 'reasonable', url: '/tag/reasonable' },
+  HEO_HERO_CATEGORY_3: { title: '资源分享', url: '/tag/资源分享' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
