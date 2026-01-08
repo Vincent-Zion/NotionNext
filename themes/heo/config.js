@@ -22,7 +22,7 @@ const CONFIG = {
   HEO_HERO_TITLE_2: '与信仰思考',
   HEO_HERO_TITLE_3: 'BSK41.COM',
   HEO_HERO_TITLE_4: '没有想看的？想催更？',
-  HEO_HERO_TITLE_5: '直接微信跟她聊！（点击直达）',
+  HEO_HERO_TITLE_5: '直接加微信催更！（点击直达）',
   HEO_HERO_TITLE_LINK: 'https://cairnkzlewgklkiqjuou.supabase.co/storage/v1/object/public/bsk41-media/picture/IMG_0323.JPG',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
