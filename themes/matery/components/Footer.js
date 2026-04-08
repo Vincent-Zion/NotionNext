@@ -48,8 +48,8 @@ const Footer = ({ title }) => {
         </span>
         <br />
         <h1>{title}</h1>
-        <span className='text-xs '>
 {/*
+        <span className='text-xs '>
           Powered by{' '}
           <a
             href='https://github.com/tangly1024/NotionNext'
@@ -57,8 +57,8 @@ const Footer = ({ title }) => {
             NotionNext {siteConfig('VERSION')}
           </a>
           .
-*/}
         </span>
+*/}
       </span>
       <br />
     </footer>
