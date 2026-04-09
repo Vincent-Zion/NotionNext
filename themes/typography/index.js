@@ -232,7 +232,7 @@ const LayoutSlug = props => {
 
       {!lock && post && (
         <div
-          className={`px-5 pt-3 ${fullWidth ? '' : 'xl:max-w-4xl 2xl:max-w-6xl'}`}>
+          className={`px-5 pt-3 ${fullWidth ? '' : 'xl:max-w-7xl 2xl:max-w-9xl'}`}>
           {/* 文章信息 */}
           <ArticleInfo post={post} />
 
