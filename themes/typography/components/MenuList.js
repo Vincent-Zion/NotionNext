@@ -29,6 +29,15 @@ export const MenuList = ({ customNav, customMenu }) => {
   })
 
   let links = [
+    // Vincent Start
+    {
+      icon: 'fas fa-search',
+      name: locale.NAV.SEARCH,
+      href: '/search',
+      show: siteConfig('TYPOGRAPHY_MENU_SEARCH', null, CONFIG)
+    },
+    // Vincent Over
+    
     {
       icon: 'fas fa-archive',
       name: locale.NAV.ARCHIVE,
