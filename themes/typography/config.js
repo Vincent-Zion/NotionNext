@@ -1,6 +1,6 @@
 const CONFIG = {
   // 博客標題 雙語言
-  TYPOGRAPHY_BLOG_NAME: process.env.NEXT_PUBLIC_TYPOGRAPHY_BLOG_NAME || '你当刚强壮胆',
+  TYPOGRAPHY_BLOG_NAME: process.env.NEXT_PUBLIC_TYPOGRAPHY_BLOG_NAME || '在灵知彼岸遇见真理',
   TYPOGRAPHY_BLOG_NAME_EN: process.env.NEXT_PUBLIC_TYPOGRAPHY_BLOG_NAME_EN || process.env.NEXT_PUBLIC_TYPOGRAPHY_BLOG_NAME || 'Beyond Spiritual Knowledge',
 
   TYPOGRAPHY_POST_AD_ENABLE: process.env.NEXT_PUBLIC_TYPOGRAPHY_POST_AD_ENABLE || false, // 文章列表是否插入广告
@@ -10,6 +10,11 @@ const CONFIG = {
   TYPOGRAPHY_ARTICLE_RECOMMEND_POSTS: process.env.NEXT_PUBLIC_TYPOGRAPHY_ARTICLE_RECOMMEND_POSTS || true, // 文章详情底部显示推荐
 
   // 菜单配置
+  
+  // Vincent Start
+  TYPOGRAPHY_MENU_SEARCH: true, // 显示搜索
+  // Vincent Over
+  
   TYPOGRAPHY_MENU_CATEGORY: true, // 显示分类
   TYPOGRAPHY_MENU_TAG: true, // 显示标签
   TYPOGRAPHY_MENU_ARCHIVE: true, // 显示归档
